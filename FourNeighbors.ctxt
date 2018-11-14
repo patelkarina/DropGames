@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=rows\ cols
+comment0.target=FourNeighbors(int,\ int)
+comment0.text=\n\ Sets\ up\ a\ game\ with\ a\ gui\ with\ a\ particular\ size.\n
+comment1.params=
+comment1.target=void\ flipTurn()
+comment1.text=\n\ Changes\ whose\ turn\ it\ is.\n
+comment2.params=loc
+comment2.target=boolean\ locationClicked(info.gridworld.grid.Location)
+comment2.text=\n\ When\ the\ current\ player\ clicks\ and\ attempts\ to\ place\ a\ piece,\ this\ \n\ method\ see\ whether\ it\ is\ a\ legal\ move\ and,\ if\ so,\ places\ a\ piece\ \n\ and\ calls\ countNeighbors\n\ \n\ @param\ loc\ location\ passed\ from\ the\ GUI\ where\ the\ use\ just\ clicked\n\ \n\ @return\ <code>true</code>\ if\ location\ clicked\ was\ valid;\ \n\ \ \ \ \ \ \ \ \ <code>false</code>\ otherwise\ or\ game\ is\ over\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Creates\ and\ positions\ a\ robot\ to\ test\ code.\n\n\ @param\ args\ arguments\ from\ the\ command\ line\n
+numComments=4

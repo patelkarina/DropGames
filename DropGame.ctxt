@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=gr
+comment0.target=DropGame(info.gridworld.grid.Grid)
+comment0.text=\n\ Creates\ a\ gui\ in\ which\ to\ play\ the\ game.\n
+comment1.params=column
+comment1.target=info.gridworld.grid.Location\ dropLocationForColumn(int)
+comment1.text=\ \n\ Retrieves\ the\ location\ a\ Piece\ object\ can\ drop\ to\n\ at\ the\ bottom\ of\ a\ column.\n\ \n\ Precondition\:\ 0\ <\=\ column\ <\ theGrid.getNumCols()\n\ \n\ @return\ \ \ \ \ \ \ null\ if\ no\ empty\ locations\ exist\ in\ the\ column;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ otherwise,\ the\ empty\ location\ with\ the\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ largest\ row\ index\ within\ the\ specified\ column;\n
+comment2.params=column\ pieceColor
+comment2.target=boolean\ countNeighbors(int,\ java.awt.Color)
+comment2.text=\n\ Tests\ if\ new\ piece\ has\ four\ or\ more\ surrounding\n\ neighbors\ of\ the\ same\ color.\n\n\ Precondition\:\ \ \ \ \ 0\ <\=\ column\ <\ theGrid.getNumCols()\n\ \n\ @param\ column\ \ \ \ \ \ the\ column\ position\ the\ user\ is\ trying\ to\ drop\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ Piece\ object\n\ @param\ pieceColor\ \ the\ color\ being\ matched\n\ \n\ @return\ <code>true</code>\ if\ dropping\ a\ Piece\ object\ of\ the\ given\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ color\ into\ the\ specified\ column\ matches\ color\ with\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ four\ neighbors;\n\ \ \ \ \ \ \ \ \ <code>false</code>\ otherwise\n
+comment3.params=dropLoc\ pieceColor
+comment3.target=boolean\ checkAllDirectionsForFour(info.gridworld.grid.Location,\ java.awt.Color)
+comment3.text=\n\ Tests\ whether\ there\ are\ four\ or\ more\ of\ the\ same\ color\n\ in\ a\ row\ based\ upon\ a\ location.\n\ \n\ Precondition\:\ \ \ \ \ 0\ <\=\ column\ <\ theGrid.getNumCols()\n\ \n\ @return\ <code>true</code>\ if\ dropping\ a\ Piece\ object\ of\ the\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ given\ color\ into\ the\ specified\ column\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ matches\ color\ with\ four\ in\ a\ line;\n\ \ \ \ \ \ \ \ \ <code>false</code>\ otherwise\n
+numComments=4

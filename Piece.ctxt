@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=color
+comment0.target=Piece(java.awt.Color)
+comment0.text=\n\ Creates\ a\ game\ piece\ of\ a\ specific\ color.\n
+comment1.params=
+comment1.target=java.awt.Color\ getColor()
+comment1.text=\n\ Retrieves\ the\ color\ of\ this\ piece.\n\ \n\ @return\ color\ of\ this\ piece\n
+numComments=2
